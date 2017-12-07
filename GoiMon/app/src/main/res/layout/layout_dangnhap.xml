@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#01a104"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:textColor="@color/whilecolor"
+        android:textSize="@dimen/size40dp"
+        android:layout_above="@+id/linearlayout"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/daubep"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="@dimen/size10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtTenDangNhapDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@color/whilecolor"
+            android:drawableLeft="@drawable/group"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/tendangnhap"
+            android:padding="@dimen/size10dp" />
+
+        <EditText
+            android:id="@+id/edtMatKhauDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@color/whilecolor"
+            android:drawableLeft="@drawable/closed"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/matkhau"
+            android:password="true"
+            android:padding="@dimen/size10dp" />
+        <Button
+            android:id="@+id/btnDongYDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2b00"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:text="@string/DongY"/>
+        <Button
+            android:id="@+id/btnDangKiDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0048ff"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:text="Đăng Kí "/>
+    </LinearLayout>
+
+</RelativeLayout>

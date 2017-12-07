@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtBanAn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Bàn ăn 1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_margin="@dimen/size10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgBanAn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/size10dp"
+        android:src="@drawable/banan" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgGoiMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:visibility="invisible"
+            android:src="@drawable/goimon" />
+
+        <ImageView
+            android:id="@+id/imgThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:visibility="invisible"
+            android:src="@drawable/thanhtoan" />
+
+        <ImageView
+            android:id="@+id/imgAnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10dp"
+            android:visibility="invisible"
+            android:src="@drawable/anbutton" />
+    </LinearLayout>
+
+
+</LinearLayout>

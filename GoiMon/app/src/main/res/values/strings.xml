@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OderFood</string>
+    <string name="tendangnhap">Tên Đăng Nhập</string>
+    <string name="matkhau">Mật Khẩu</string>
+    <string name="ngaysinh" >Ngày Sinh</string>
+    <string name="ChungMinhNhanDan">Chứng Minh Nhân Dân</string>
+    <string name="DongY">Đồng Ý</string>
+    <string name="Thoat">Thoát</string>
+    <string name="dangKi">Đăng Kí</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+</resources>

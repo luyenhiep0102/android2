@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/header"
+    android:layout_height="190dp">
+    <ImageView
+        android:id="@+id/circleImage"
+        android:src="@drawable/daubep"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/size40dp"
+        android:layout_marginLeft="@dimen/size30dp"/>
+    <TextView
+        android:id="@+id/textViewTenDN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten Tai Khoan"
+        android:layout_alignLeft="@+id/circleImage"
+        android:layout_below="@+id/circleImage"/>
+
+
+</RelativeLayout>

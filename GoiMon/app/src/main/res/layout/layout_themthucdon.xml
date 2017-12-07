@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0b7b81">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Thực Đơn"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/size10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtThemTenMonAn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:background="#ffffff"
+                android:hint="Tên Món Ăn" />
+
+            <EditText
+                android:id="@+id/edtThemGiaTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:background="#ffffff"
+                android:numeric="integer"
+                android:hint="Giá Tiền" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spinnerChon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"></android.support.v7.widget.AppCompatSpinner>
+
+                <ImageButton
+                    android:id="@+id/ibtnThemLoaiThucDon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_input_add" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgHinhMonAn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/backgroundheader" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnDongYThemMonAn"
+            android:text="Đồng Ý"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/btnThoatMonAn"
+            android:text="Thoát"
+            android:padding="@dimen/size10dp"
+            android:layout_margin="@dimen/size10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#2da103"/>
+
+    </LinearLayout>
+</LinearLayout>
